@@ -33,6 +33,11 @@ int main() {
             std::cout << "Bravo!!!  vous avez trouve en " << tentative << " tentatives!" << std::endl;
         }
     } while (proposition != nombreSecret);
+    std::cout << "Appuyez sur entrée pour continuer" << std::endl;
+    std::cin.ignore();
+    std::cin.get();
+    
     
     return 0;
+
 }
